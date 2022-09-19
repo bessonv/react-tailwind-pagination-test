@@ -10,7 +10,7 @@ export default function PaginationButtons({
 
 
   return (
-    <div className='py-2'>
+    <div className='mx-auto py-2'>
       <div>
         <p className='text-sm text-gray-700'>
           Showing

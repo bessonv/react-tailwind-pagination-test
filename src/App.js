@@ -34,7 +34,7 @@ const App = () => {
   const paginateBack = () => setCurrentPage(currentPage - 1);
 
   return (
-    <div>
+    <div class="container max-w-screen-lg mx-auto px-4 my-4">
       <Posts posts={currentPosts} />
       <PaginationNum
         postsPerPage={postsPerPage}

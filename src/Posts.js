@@ -6,7 +6,7 @@ const Posts = ({ posts, loading }) => {
   }
 
   return (
-    <div>
+    <div className="mx-auto">
       <ul>
         {posts.map((post) => (
           <li
